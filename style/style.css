@@ -1,6 +1,9 @@
 body{
     margin: 0;
     height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
@@ -17,6 +20,8 @@ a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    margin:0;
+    padding:0;
 }
 
 .secondary-text{
@@ -49,4 +54,21 @@ button.sign-up,
     font-weight: 200;
     color: #1F2937;
     font-style: italic;
+}
+.introduction img{
+    width: 500px;
+}
+.information img{
+    width: 250px;
+}
+.container{
+    flex: 1 1 auto;
+}
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap:8px;
+}
+.logo{
+    margin-right:auto;
 }
