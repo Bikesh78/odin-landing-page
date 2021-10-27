@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.header,
+.introduction,
+.footer{
+    background-color: #1F2937;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header .logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+button.sign-up,
+.banner {
+    background-color: #3882f6;
+}
+.info-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    font-style: italic;
+}
